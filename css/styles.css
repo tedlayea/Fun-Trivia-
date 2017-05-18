@@ -115,7 +115,7 @@ header{
   font-size: 30px;
   text-align: center;
   display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	padding: 12px 100px;
 }
@@ -169,7 +169,7 @@ input[type="submit"] {
   font-size: 20px;
 }
 .questionsRemaining {
-  text-align: right;
+  text-align: left;
   color: red;
   font-size: 20px;
 }
