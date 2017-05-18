@@ -4,7 +4,7 @@ $( document ).ready(function() {
   var question = [ "Which island is the world's biggest island?", "Which country eats the most chocolate equating to 10 kilos per person per year?", "Which continent is the only continent with no active volcanoes?", "Where is croissant first invented?", "Where are French fries originally from?", "Where is the first sailing boats built?", "Which country is named after a tree?", "Where is paper originated from?", "Which country has the most post offices than any other country (over 100,000)?", "Where is Christmas trees originated from?"];
   var answer = ["Greenland", "Switzerland", "Australia", "Austria", "Belgium", "Egypt", "Brazil", "China", "India", "Germany"];
   var counter = 0;
-  var timer = 10;
+  var timer = 0;
   var remainingQuestion = question[counter].length - 1;
   var remainingTime = $("#timerInput");
 
@@ -19,7 +19,7 @@ $( document ).ready(function() {
       $("#two").html(question[counter]);
       var startTimer = setInterval(function() {
         remainingTime.text(timer);
-        timer-=1;
+        timer+=1;
       }, 1000)
       })
 

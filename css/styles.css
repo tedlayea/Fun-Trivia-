@@ -36,12 +36,7 @@ section p{
 	padding: 0 20px;
 	line-height: 2;
 }
-ul.countriesAndCulture{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+
 header{
 	position: absolute;
 	top: 0;
@@ -98,19 +93,19 @@ header{
 .categories{
 	background-color: #f7f7f7;
 }
-.categories .countriesAndCulture li{
+.categories li{
 	padding: 0 30px;
 	flex-basis: 33%;
 	text-align: center;
   font-size: 20px;
 }
-.categories .countriesAndCulture li h4{
+.categories li h4{
 	  color: #C8A307;
     font-size: 30px;
     margin-bottom: 0;
     text-align: center;
 }
-.categories .countriesAndCulture li p{
+.categories li p{
     margin: 0;
 }
 #displayQuestion {
@@ -178,7 +173,7 @@ input[type="submit"] {
   font-size: 20px;
 }
 @media (max-width: 600px){
-	.categories .countriesAndCulture li{
+	.categories li{
 		flex-basis: 100%;
 	}
 }
